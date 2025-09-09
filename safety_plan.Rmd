@@ -8,8 +8,8 @@ output:
 links-to-footnotes: false
 paged-footnotes: false
 params:
-  repo_url: 'https://github.com/lucy-schick/safety_plan_skeena_2025'
-  report_url: 'https://lucy-schick.github.io/safety_plan_skeena_2025/'
+  repo_url: 'https://github.com/NewGraphEnvironment/safety_plan_skeena_2025'
+  report_url: 'https://NewGraphEnvironment.github.io/safety_plan_skeena_2025/'
   job_name: '2025-076-sern-skeena-fraser-fish-passage'
   gis_project_name: "sern_skeena_2023"
   update_packages: FALSE
