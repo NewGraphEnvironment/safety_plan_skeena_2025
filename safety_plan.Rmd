@@ -14,7 +14,7 @@ params:
   gis_project_name: "sern_skeena_2023"
   update_packages: FALSE
   update_bib: TRUE
-bibliography: "`r if (params$update_bib) { rbbt::bbt_write_bib('references.bib', overwrite = TRUE); 'references.bib' } else 'references.bib'`"
+bibliography: "`r if (params$update_bib) { rbbt::bbt_write_bib('references.bib', overwrite = TRUE, filter = function(b) gsub('[[:space:]]+file = [{][^}]*[}],?', '', b)); 'references.bib' } else 'references.bib'`"
 biblio-style: apalike
 link-citations: no
 
